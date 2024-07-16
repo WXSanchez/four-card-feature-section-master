@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  position: absolute;
+  height: 80vh; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll; 
+  font-size: 14px; 
+  padding-bottom: 20px; 
+  font-family: "Poppins"; 
+  
+}
+@media (max-width:600px){
+ .cards{
+  display:flex; 
+  flex-direction:column;
+ }
+ .middle br{
+  display:none; 
+ }
+}
+
+.cards{
+  display:flex; 
+  flex-direction: row wrap;
+  margin:auto;
+  align-items:center;
+  gap: 2rem; 
+  
+}
+
+article{
+  background-color:white; 
+  box-shadow: 0 10px 20px hsl(229, 6%, 66%);
+  border-radius:10px;
+  width: 24rem;
+  height: 18rem; 
+}
+
+.cards h1{
+  margin-left:2rem; 
+  margin-top:2rem;
+}
+
+.cards p{
+  margin-left:2rem; 
+  color: hsl(229, 6%, 66%);
+}
+
+
+.middle{
+  display:flex; 
+  flex-direction:column; 
+  background-color: transparent;
+  gap:2rem;
+}
+
+.heading{
+  display:flex; 
+  flex-direction: column;
+  text-align:center; 
+  margin-bottom: 10px; 
+  font-size: 18px;
+}
+
+.heading p{
+  color: hsl(229, 6%, 66%);
+}
+
+.supertext{
+  color: hsl(229, 6%, 66%);
+  font-weight: normal; 
+  margin-bottom: 0; 
+}
+
+img{
+  margin-left:75%;
+  margin-top: 17%;
+}
+
+.card1{
+  border-top: solid;
+  border-color: hsl(180, 62%, 55%);
+}
+.card2{
+  border-top: solid;
+  border-color: hsl(0, 78%, 62%);
+}
+.card3{
+  border-top: solid;
+  border-color: hsl(34, 97%, 64%);
+}
+.card4{
+  border-top: solid;
+  border-color: hsl(212, 86%, 64%);
+}
+
+
